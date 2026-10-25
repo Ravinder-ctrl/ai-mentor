@@ -127,7 +127,7 @@ span {
             width: 0%;
         }
     }
-}
+
  
   @keyframes float {
     
@@ -601,8 +601,8 @@ span {
     width: 100%;
 
     .sponser {
-         animation: slide  3s linear infinite;
-         transition: all ease-in;
+         /* animation: slide  3s linear infinite;
+         transition: all ease-in; */
     gap: 20px; 
     /* margin: 20px 0px; */
       
@@ -614,14 +614,14 @@ span {
 
 
 }
-@keyframes slide{
+/* @keyframes slide{
       to{
             transform: translateX(-50%);
         }from{
             transform: translateX(0%);
 
         }
-    } 
+    }  */
 
 .section10 {
     min-height: 100vh;
