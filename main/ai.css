@@ -85,6 +85,9 @@ span {
         h1 {
             font-size: 5.4vw;
             color: white;
+    
+    animation:  float 4s ease-in-out infinite;
+  }
 
         }
 
@@ -125,6 +128,19 @@ span {
         }
     }
 }
+ 
+  @keyframes float {
+    
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
 
 .section2 {
     min-height: 100vh;
